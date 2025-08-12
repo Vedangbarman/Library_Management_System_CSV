@@ -32,7 +32,8 @@ python library_management.py
 
 Follow the on-screen menu prompts to use the system
 
-# How It Works
+
+## How It Works
 IDs (BookID, MemberID) are automatically generated based on existing CSV data, so they persist across runs
 
 Books and members are stored in separate CSV files
@@ -41,11 +42,11 @@ Issuing or returning books updates the status and links books to member IDs
 
 Removing records rewrites CSV files without the removed entries
 
+
 **Usage**
 On running the script, you'll see a menu like:
 
 
-Edit
 1. Add Book  
 2. Add Member  
 3. Print Info  
@@ -55,7 +56,7 @@ Edit
 7. Exit  
 Choose options by entering the number, and follow prompts for details.
 
-# Notes
+## Notes
 **All IDs are handled as strings internally to avoid conversion issues**
 
 **CSV files must have the following headers:**
@@ -69,9 +70,7 @@ MemberID,Name
 Book statuses: "Available" or "Issued"
 
 Example
-mathematica
-Copy
-Edit
+mathematics
 Enter Choice : 2  
 Enter Name: John Doe  
 Member Added Successfully!
